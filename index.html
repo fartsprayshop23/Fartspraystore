@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fart Spray | Premium Prank Spray</title>
+
+<title>Fart Spray | The Ultimate Prank Spray</title>
 
 <style>
 
@@ -13,159 +15,467 @@ padding:0;
 box-sizing:border-box;
 }
 
+html{
+scroll-behavior:smooth;
+}
+
 body{
-background:#0d0d0d;
+font-family:Arial, Helvetica, sans-serif;
+background:#050505;
 color:white;
-font-family:Arial,Helvetica,sans-serif;
+line-height:1.6;
+}
+
+nav{
+position:sticky;
+top:0;
+z-index:1000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 30px;
+background:rgba(5,5,5,0.9);
+border-bottom:1px solid #222;
+backdrop-filter:blur(10px);
+}
+
+.logo{
+font-size:24px;
+font-weight:800;
+}
+
+.nav-button{
+background:white;
+color:black;
+padding:10px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
 }
 
 .hero{
-max-width:1100px;
-margin:auto;
-padding:70px 25px;
+min-height:90vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
 text-align:center;
+padding:60px 20px;
 }
 
 .hero h1{
-font-size:52px;
-margin-bottom:15px;
-}
-
-.subtitle{
-font-size:22px;
-color:#bdbdbd;
-margin-bottom:35px;
-}
-
-img{
-width:340px;
-max-width:90%;
-border-radius:20px;
-box-shadow:0 20px 60px rgba(255,255,255,.08);
-margin-bottom:35px;
-}
-
-.price{
-font-size:44px;
-font-weight:bold;
+font-size:55px;
+line-height:1.1;
 margin-bottom:20px;
 }
 
-.discount{
-display:inline-block;
-background:#18b76d;
-padding:12px 24px;
-border-radius:999px;
-font-weight:bold;
+.hero p{
+font-size:22px;
+color:#aaa;
+max-width:600px;
 margin-bottom:35px;
 }
 
-.buy{
+.product-image{
+width:360px;
+max-width:90%;
+border-radius:25px;
+box-shadow:0 30px 80px rgba(255,255,255,0.1);
+margin:30px 0;
+animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+
+.price{
+font-size:45px;
+font-weight:900;
+margin:15px;
+}
+
+.discount{
+background:#16c784;
+display:inline-block;
+padding:12px 25px;
+border-radius:50px;
+font-weight:bold;
+margin-bottom:30px;
+}
+
+.buy-button{
 display:inline-block;
 background:white;
 color:black;
-padding:18px 55px;
 font-size:22px;
 font-weight:bold;
-border-radius:999px;
+padding:18px 55px;
+border-radius:50px;
 text-decoration:none;
 transition:.3s;
 }
 
-.buy:hover{
+.buy-button:hover{
 transform:scale(1.05);
 }
 
-.section{
-max-width:900px;
-margin:auto;
-padding:70px 25px;
-text-align:center;
-}
-
-.section h2{
-font-size:34px;
-margin-bottom:25px;
-}
-
-.card{
-background:#171717;
-padding:22px;
-border-radius:18px;
-margin:15px 0;
-font-size:20px;
-line-height:1.6;
-}
-
-footer{
-padding:40px;
-text-align:center;
-color:#8a8a8a;
-font-size:14px;
-}
-
 </style>
+
 </head>
 
 <body>
 
-<div class="hero">
+<nav>
 
-<h1>💨 Fart Spray</h1>
-
-<p class="subtitle">
-Harmless. Hilarious. Impossible to Forget.
-</p>
-
-<img src="fartspray.jpg">
-
-<div class="price">€21</div>
-
-<div class="discount">
-🎉 Use code <b>LAUNCH10</b> for 10% OFF
+<div class="logo">
+💨 Fart Spray
 </div>
 
-<br><br>
-
-<a class="buy" href="https://buy.stripe.com/3cI4gA8IE2ko3ki9eR2go02">
-BUY NOW
-</a>
-
-</div>
-
-<div class="section">
-
-<h2>Why You'll Love It</h2>
-
-<div class="card">
-😂 Perfect for harmless pranks with friends and family.
-</div>
-
-<div class="card">
-🎁 A funny gift for birthdays, parties, and special occasions.
-</div>
-
-<div class="card">
-💳 Secure checkout powered by Stripe.
-</div>
-
-</div>
-
-<footer>
-
-© 2026 Fart Spray
-
-</footer>
-
-</body>
-<nav style="display:flex;justify-content:space-between;align-items:center;padding:20px 30px;background:#111;border-bottom:1px solid #222;position:sticky;top:0;z-index:1000;">
-
-<h2 style="margin:0;">💨 Fart Spray</h2>
-
-<a href="https://buy.stripe.com/3cI4gA8IE2ko3ki9eR2go02"
-style="background:white;color:black;padding:10px 20px;border-radius:999px;text-decoration:none;font-weight:bold;">
+<a class="nav-button" href="https://buy.stripe.com/3cI4gA8IE2ko3ki9eR2go02">
 Buy Now
 </a>
 
 </nav>
+
+<section class="hero">
+
+<h1>
+The Ultimate Prank Spray
+</h1>
+
+<p>
+Harmless. Hilarious. Impossible to forget.
+The perfect surprise gift for friends, parties and laughs.
+</p>
+
+<img class="product-image" src="fartspray.jpg">
+
+<div class="price">
+€21
+</div>
+
+<div class="discount">
+🎉 Use code LAUNCH10 for 10% OFF
+</div>
+
+<a class="buy-button" href="https://buy.stripe.com/3cI4gA8IE2ko3ki9eR2go02">
+BUY NOW
+</a>
+
+</section>
+<section class="section">
+
+<h2>
+Why Everyone Loves It
+</h2>
+
+<div class="card">
+💨 <strong>Big laughs, tiny bottle</strong><br>
+A simple prank that creates unforgettable reactions.
+</div>
+
+<div class="card">
+🎁 <strong>The perfect funny gift</strong><br>
+Great for birthdays, parties, friends and family.
+</div>
+
+<div class="card">
+⚡ <strong>Instant entertainment</strong><br>
+Bring the jokes anywhere with a compact prank spray.
+</div>
+
+</section>
+
+
+<section class="offer">
+
+<h2>
+Limited Launch Offer
+</h2>
+
+<p>
+Get your Fart Spray today and save 10% with code:
+</p>
+
+<div class="code">
+LAUNCH10
+</div>
+
+</section>
+<section class="section">
+
+<h2>
+What's Included
+</h2>
+
+<div class="card">
+💨 Premium prank spray bottle
+</div>
+
+<div class="card">
+🎉 Ready for parties, jokes and surprises
+</div>
+
+<div class="card">
+📦 Compact design that's easy to carry
+</div>
+
+<div class="card">
+🔒 Secure payment through Stripe checkout
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>
+Fast & Simple
+</h2>
+
+<div class="steps">
+
+<div class="card">
+<strong>1.</strong><br>
+Choose your Fart Spray
+</div>
+
+<div class="card">
+<strong>2.</strong><br>
+Checkout securely
+</div>
+
+<div class="card">
+<strong>3.</strong><br>
+Get ready for the laughs
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>
+Secure Checkout
+</h2>
+
+<div class="card">
+
+💳 Payments are handled securely through Stripe.
+
+<br><br>
+
+Your payment details are protected during checkout.
+
+</div>
+
+</section>
+<section class="section">
+
+<h2>
+Customer Reviews
+</h2>
+
+<div class="card">
+⭐⭐⭐⭐⭐<br>
+"Funniest gift I've ever bought. Everyone was laughing."
+<br><br>
+— Example customer
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐<br>
+"Small prank, huge reaction. Perfect for parties."
+<br><br>
+— Example customer
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐<br>
+"Definitely got the laughs I wanted."
+<br><br>
+— Example customer
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>
+Frequently Asked Questions
+</h2>
+
+<div class="card">
+
+<strong>How do I use it?</strong><br>
+Spray lightly and enjoy the reaction.
+
+</div>
+
+
+<div class="card">
+
+<strong>Is it a good gift?</strong><br>
+Yes, it's designed as a funny prank gift for friends and celebrations.
+
+</div>
+
+
+<div class="card">
+
+<strong>How do I pay?</strong><br>
+Checkout is handled securely through Stripe.
+
+</div>
+
+
+<div class="card">
+
+<strong>Do I get a discount?</strong><br>
+Yes. Use code LAUNCH10 for 10% off.
+
+</div>
+
+</section>
+<section class="section">
+
+<h2>
+Our Promise
+</h2>
+
+<div class="card">
+😂 Made for laughs and memorable moments.
+</div>
+
+<div class="card">
+🚚 Simple ordering with secure checkout.
+</div>
+
+<div class="card">
+🎁 A fun surprise for friends and family.
+</div>
+
+</section>
+
+
+<footer>
+
+<h3>
+💨 Fart Spray
+</h3>
+
+<p>
+The ultimate prank spray.
+</p>
+
+<br>
+
+<p>
+© 2026 Fart Spray. All rights reserved.
+</p>
+
+</footer>
+
+
+<style>
+
+.section{
+padding:70px 25px;
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.section h2{
+font-size:36px;
+margin-bottom:35px;
+}
+
+.card{
+background:#151515;
+border:1px solid #262626;
+padding:25px;
+border-radius:20px;
+margin:18px 0;
+font-size:18px;
+}
+
+.offer{
+text-align:center;
+padding:70px 25px;
+background:#101010;
+}
+
+.offer h2{
+font-size:36px;
+margin-bottom:15px;
+}
+
+.code{
+display:inline-block;
+margin-top:20px;
+background:white;
+color:black;
+padding:15px 35px;
+border-radius:50px;
+font-size:24px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:50px 20px;
+color:#888;
+border-top:1px solid #222;
+}
+
+
+@media(max-width:600px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.price{
+font-size:36px;
+}
+
+nav{
+padding:15px;
+}
+
+.logo{
+font-size:19px;
+}
+
+.nav-button{
+padding:8px 15px;
+}
+
+}
+
+</style>
+
+
+</body>
 </html>
